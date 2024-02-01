@@ -27,7 +27,11 @@
 
 - Untuk melakukna test, silahkan ketikkan "npm run test" di terminal
 
-- Membuat file jest.config.cjs dengan sintak berikut:
+- Membuat file ./tests/setupTest.js dengan sintak berikut:
+
+  import "@testing-library/jest-dom";
+
+- Membuat file ./jest.config.cjs dengan sintak berikut:
 
   module.exports = {
   collectCoverage: true,
@@ -55,7 +59,7 @@
   ],
   };
 
-- Membuat file .babelrc dengan sintak berikut:
+- Membuat file ./.babelrc dengan sintak berikut:
 
   {
   "presets": [
