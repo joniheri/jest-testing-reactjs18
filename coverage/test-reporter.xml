@@ -1,0 +1,5 @@
+<testExecutions version="1">
+<file path="tests\pages\Home\Home.test.jsx">
+<testCase name="HomePage Should have Welcome Text" duration="40" />
+</file>
+</testExecutions>
